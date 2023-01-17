@@ -1,0 +1,93 @@
+#text1{
+    text-align: center;
+    color: white;
+}
+body{
+    background-color: blueviolet;
+}
+
+table, th, td
+{
+    border: 1px solid black;
+    border-collapse: collapse ;
+}
+
+
+
+#laptopdiv
+{
+    width: 48%;
+    height: 450px;
+    border: double;
+    background-color: wheat;
+    margin: 2px 0px 5px 5px;
+    display: inline-block;
+}
+
+#laptopdiv img{
+    width: 50%;
+    margin-bottom: 5px;
+    
+}
+#laptopdiv table{
+    width: 50%;
+    background-color: aquamarine;
+    color: blue;
+}
+
+#pcdiv
+{
+    height: 450px;
+    width: 48%;
+    border: double;
+    background-color: wheat;
+    margin: 2px 0px 5px 5px;
+    display: inline-block;
+}
+
+#pcdiv img{
+    width: 50%;
+    margin-bottom: 5px;
+    
+}
+#pcdiv table{
+    width: 50%;
+    background-color: aquamarine;
+    color: blue;
+}
+
+#laptop #pc{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex: 1px;
+    margin: 2px 0px 5px 5px;
+}
+
+#formdiv
+{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex: 1px;
+    margin: 2px 0px 5px 5px;
+
+}
+
+form input{
+    width: 250px;
+    height: 20px;
+
+}
+#button1{
+    margin-top: 2px;
+    margin-left: 25%;
+    margin-right: 25%;
+    padding: auto;
+    width: 100px;
+    align-items: center;
+    justify-content: center;
+    flex: 1px;
+}
